@@ -1,12 +1,12 @@
 from setuptools import setup
 
 setup(
-    name='pythonProject',
-    version='1.0.0',
+    name='Hesap Makinesi',
+    version='1.0.1',
     packages=[''],
     url='',
     license='',
-    author='furka',
+    author='furkan',
     author_email='furkanacarsan70@gmail.com',
     description='Basitçe hesaplama işlemlerinizi yapınız.'
 )

@@ -11,28 +11,28 @@ if Menü == 1:
     İkinciSayı = int(input("Lütfen 2.sayıyı giriniz."))
     Toplam = İlkSayı + İkinciSayı
     print(f"İşlem Sonucunuz: {Toplam}'dir. İyi günler dileriz.")
-    print("Lütfen Enter'a basınız.")
+    input("Lütfen Enter'a basınız.")
 elif Menü == 2:
     İlkSayı = int(input("Lütfen 1.sayıyı giriniz."))
     İkinciSayı = int(input("Lütfen 2.sayıyı giriniz."))
     Toplam = İlkSayı - İkinciSayı
     print(f"İşlem Sonucunuz: {Toplam}'dir. İyi günler dileriz.")
-    print("Lütfen Enter'a basınız.")
+    input("Lütfen Enter'a basınız.")
 elif Menü == 3:
     İlkSayı = int(input("Lütfen 1.sayıyı giriniz."))
     İkinciSayı = int(input("Lütfen 2.sayıyı giriniz."))
     Toplam = İlkSayı * İkinciSayı
     print(f"İşlem Sonucunuz: {Toplam}'dir. İyi günler dileriz.")
-    print("Lütfen Enter'a basınız.")
+    input("Lütfen Enter'a basınız.")
 elif Menü == 4:
     İlkSayı = int(input("Lütfen 1.sayıyı giriniz."))
     İkinciSayı = int(input("Lütfen 2.sayıyı giriniz."))
     Toplam = İlkSayı / İkinciSayı
     print(f"İşlem Sonucunuz: {Toplam}'dir. İyi günler dileriz.")
-    print("Lütfen Enter'a basınız.")
+    input("Lütfen Enter'a basınız.")
 else:
     print("Yanlış sayı tuşladınız. Lütfen tekrar deneyiniz.")
-    print("Lütfen Enter'a basınız.")
+    input("Lütfen Enter'a basınız.")
 if Menü == 10:
     print("Virgüllü Sayılarda \n"
           "Toplama işlemi yapmak için 11'e, \n"
@@ -45,25 +45,25 @@ if Menü == 10:
         İKİNCİsayı = float(input("İkinci sayıyı giriniz."))
         ToplamSonuç = BirinciSayı + İKİNCİsayı
         print(f"İşlem sonucunuz: {ToplamSonuç}'dir. İyi günler dileriz.")
-        print("Lütfen Enter'a basınız.")
+        input("Lütfen Enter'a basınız.")
     elif Altmenü == 12:
         BirinciSayı = float(input("İlk sayıyı giriniz."))
         İKİNCİsayı = float(input("İkinci sayıyı giriniz."))
         ToplamSonuç = BirinciSayı - İKİNCİsayı
         print(f"İşlem sonucunuz: {ToplamSonuç}'dir. İyi günler dileriz.")
-        print("Lütfen Enter'a basınız.")
+        input("Lütfen Enter'a basınız.")
     elif Altmenü == 13:
         BirinciSayı = float(input("İlk sayıyı giriniz."))
         İKİNCİsayı = float(input("İkinci sayıyı giriniz."))
         ToplamSonuç = BirinciSayı / İKİNCİsayı
         print(f"İşlem sonucunuz: {ToplamSonuç}'dir. İyi günler dileriz.")
-        print("Lütfen Enter'a basınız.")
+        input("Lütfen Enter'a basınız.")
     elif Altmenü == 14:
         BirinciSayı = float(input("İlk sayıyı giriniz."))
         İKİNCİsayı = float(input("İkinci sayıyı giriniz."))
         ToplamSonuç = BirinciSayı * İKİNCİsayı
         print(f"İşlem sonucunuz: {ToplamSonuç}'dir. İyi günler dileriz.")
-        print("Lütfen Enter'a basınız.")
+        input("Lütfen Enter'a basınız.")
     else:
         print("Yanlış sayı tuşladınız. Lütfen tekrar deneyiniz.")
-        print("Lütfen Enter'a basınız.")
+        input("Lütfen Enter'a basınız.")
